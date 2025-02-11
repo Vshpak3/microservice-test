@@ -24,6 +24,10 @@
    ```sh
    php artisan serve
    ```
+7. Run Tests:
+   ```sh
+   ./vendor/bin/phpunit
+   ```
 
 ### Node.js Service
 1. Navigate to the Node.js project directory:
@@ -37,6 +41,10 @@
 3. Start the Node.js server:
    ```sh
    npx ts-node src/index.ts
+ ```
+4. Run tests:
+   ```sh
+   npm jest
    ```
 
 ### Frontend (React)
